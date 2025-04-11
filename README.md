@@ -9,14 +9,13 @@
 Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. 
 
 ### PyPI Packages
-- [cfn-perm](https://pypi.org/project/cfn-perm/) - Python package for AWS CloudFormation IAM permission management
-- [cfn-cur](https://pypi.org/project/cfn-cur/) - Tool for resolving CloudFormation stacks in UPDATE_ROLLBACK_FAILED state
+- [cfn-perm](https://pypi.org/project/cfn-perm/) - Python package to generate minimal IAM permissions based on a AWS CloudFormation template
+- [cfn-cur](https://pypi.org/project/cfn-cur/) - CLI Command generator for stacks that are stuck in UPDATE_ROLLBACK_FAILED
 
 
 ### Infrastructure Projects
 - [v2-cdk-pipeline](https://github.com/mrlikl/v2-cdk-pipeline) - Porting CDK pipeline with CodePipeline V2
 - [db-migration-sample](https://github.com/mrlikl/db-migration-sample) - RDS migration from Serverless v1 to v2 using CDK
-- [continue-update-rollback](https://github.com/mrlikl/continue-update-rollback) - CLI Command generator for stacks that are stuck in UPDATE_ROLLBACK_FAILED
 
 
 ## GitHub Statistics
