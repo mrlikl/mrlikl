@@ -4,9 +4,7 @@
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn">
 </a>
 
-### About Me
-
-Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. 
+<br> I am a Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. Below are some of my works:
 
 ### PyPI Packages
 - [cfn-perm](https://pypi.org/project/cfn-perm/) - Python package to generate minimal IAM permissions based on a AWS CloudFormation template
