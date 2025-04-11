@@ -1,19 +1,29 @@
 ### Hi there 👋
 
-<!--
-**mrlikl/mrlikl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://www.linkedin.com/in/gosolo/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn">
+</a>
 
-Here are some ideas to get you started:
+### About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. 
+
+### PyPI Packages
+- [cfn-perm](https://pypi.org/project/cfn-perm/) - Python package for AWS CloudFormation IAM permission management
+- [cfn-cur](https://pypi.org/project/cfn-cur/) - Tool for resolving CloudFormation stacks in UPDATE_ROLLBACK_FAILED state
+
+
+### Infrastructure Projects
+- [v2-cdk-pipeline](https://github.com/mrlikl/v2-cdk-pipeline) - Porting CDK pipeline with CodePipeline V2
+- [db-migration-sample](https://github.com/mrlikl/db-migration-sample) - RDS migration from Serverless v1 to v2 using CDK
+- [continue-update-rollback](https://github.com/mrlikl/continue-update-rollback) - CLI Command generator for stacks that are stuck in UPDATE_ROLLBACK_FAILED
+
+
+## GitHub Statistics
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrlikl&show_icons=true&theme=default&hide_border=true)
+
+## Certifications
 
 <a href="https://www.credly.com/badges/44cc653d-c033-40dd-9e8e-e907f8547b68/public_url" title="AWS Certified Cloud Practitioner"><img src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" alt="AWS Certified Cloud Practitioner" width="9%" height="" /></a>
 <a href="https://www.credly.com/badges/9a7d2898-fb0a-4af2-92d6-fa8cbc1dac08" title="AWS Certified AI Practitioner"><img src="https://images.credly.com/size/340x340/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png" alt="AWS Certified AI Practitioner" width="9%" height="" /></a>
