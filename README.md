@@ -2,21 +2,40 @@
 
 <a href="https://www.linkedin.com/in/gosolo/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn">
+</a> 
+<a href="mailto:mrlikrsh@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-red" alt="Email">
+</a>
+<a href="https://github.com/mrlikl">
+  <img src="https://img.shields.io/badge/GitHub-Follow-black" alt="GitHub">
 </a>
 
-I'm a Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. I specialize in building scalable cloud solutions, automating deployments, and helping teams adopt DevOps best practices.
+I'm a Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. I am interested in automating infrastructure at scale, and creating self-service solutions that enable teams to deploy faster and more reliably.
+
+## 🔭 Currently Working On
+- Enhancing [spotter](https://github.com/mrlikl/spotter) with Kubernetes-native pod scheduling optimization
+- Contributing to open-source CDK
 
 ## 🚀 Featured Projects
 
-### Infrastructure & DevOps
+### Platform Engineering
+
+#### [spotter](https://github.com/mrlikl/spotter)
+
+Production-grade spot instance scheduling system for EKS worker nodes. Intelligently finds the cheapest ARM64 spot instances across availability zones, handles spot interruptions gracefully, and maintains cluster capacity with smart fallback mechanisms.
+
+**Tech Stack**: AWS CDK, Lambda, EventBridge, EKS, CloudFormation, Kubernetes  
+**Key Features**: 70-80% cost savings, multi-AZ optimization, intelligent interruption handling, ARM64 focus
 
 #### [db-migration-sample](https://github.com/mrlikl/db-migration-sample)
+
 Complete RDS migration solution demonstrating the transition from Aurora Serverless v1 to v2 using AWS CDK. Includes infrastructure provisioning, data migration strategies, and rollback procedures.
 
 **Tech Stack**: AWS CDK, RDS Aurora, Lambda, CloudFormation  
 **Key Features**: Zero-downtime migration, automated rollback, cost optimization
 
 #### [mrlikl.github.io](https://github.com/mrlikl/mrlikl.github.io)
+
 A static website that displays current AWS EC2 Linux On-Demand pricing information across multiple regions. The site is automatically updated weekly using AWS CodeBuild and EventBridge scheduling.
 
 **Tech Stack**: Python, GitHub Pages, AWS CodeBuild, EventBridge  
@@ -25,12 +44,14 @@ A static website that displays current AWS EC2 Linux On-Demand pricing informati
 ### Python Packages & CLI Tools
 
 #### [cfn-perm](https://github.com/mrlikl/cfn-perm) | [PyPI](https://pypi.org/project/cfn-perm/)
+
 Python package that analyzes AWS CloudFormation templates and generates minimal IAM permissions required for stack operations. Helps implement least-privilege security principles.
 
 **Tech Stack**: Python, Boto3, CloudFormation, IAM  
 **Key Features**: Automated permission analysis, least-privilege recommendations, CLI interface
 
 #### [continue-update-rollback](https://github.com/mrlikl/continue-update-rollback) | [PyPI](https://pypi.org/project/cfn-cur/)
+
 CLI tool for generating AWS CLI commands to resolve CloudFormation stacks stuck in `UPDATE_ROLLBACK_FAILED` state. Automates the recovery process for failed stack updates.
 
 **Tech Stack**: Python, AWS CLI, CloudFormation  
@@ -39,18 +60,20 @@ CLI tool for generating AWS CLI commands to resolve CloudFormation stacks stuck 
 ## 📝 Technical Blog Posts
 
 #### [How to make AWS SDK calls from AWS CDK using AwsSdkCall](https://repost.aws/knowledge-center/cdk-sdk-calls-awssdkcall)
+
 Comprehensive guide on integrating AWS SDK calls within CDK applications using the AwsSdkCall construct. Covers best practices, error handling, and practical implementation examples for common use cases.
 
 **Topics**: AWS CDK, SDK Integration, Custom Resources, Infrastructure as Code
 
 #### [How to troubleshoot a Windows EC2 instance that failed to signal CloudFormation](https://repost.aws/knowledge-center/cfn-windows-failed-signal-error)
+
 Detailed troubleshooting guide for resolving CloudFormation signal failures on Windows EC2 instances. Includes diagnostic steps, common root causes, and resolution strategies for cfn-signal issues.
 
 **Topics**: CloudFormation, Windows EC2, Troubleshooting, cfn-signal, Instance Initialization
 
 ## 🛠️ Technical Expertise
 
-- **AWS**: EC2, RDS, Lambda, S3, CloudFormation, CDK, CodePipeline, EKS
+- **AWS**: EC2, RDS, Lambda, S3, CloudFormation, CDK, CodePipeline, EKS, ECS
 - **Kubernetes**: Cluster management, workload deployment, monitoring, troubleshooting
 - **AWS CDK**: TypeScript/Python, custom constructs, pipeline automation
 - **Terraform**: Resource provisioning, state management, modules
@@ -87,7 +110,6 @@ Detailed troubleshooting guide for resolving CloudFormation signal failures on W
 </a>
 </div>
 
-
-## 🤝 Let's Connect 
+## 🤝 Let's Connect
 
 I'm always interested in discussing AWS, Cloud Architecture, DevOps practices, and innovative solutions. Reach out to me at 📧 mrlikrsh@gmail.com
