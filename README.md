@@ -1,13 +1,13 @@
 # Hi there 👋
 
 <a href="https://www.linkedin.com/in/gosolo/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-blue" alt="LinkedIn">
+  <img src="https://img.shields.io/badge/🔗_LinkedIn-Connect-00d4aa?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1a1a1a&color=00d4aa" alt="LinkedIn">
 </a> 
 <a href="mailto:mrlikrsh@gmail.com">
-  <img src="https://img.shields.io/badge/Email-Contact-red" alt="Email">
+  <img src="https://img.shields.io/badge/📧_Email-Transmit-ff6b6b?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a1a&color=ff6b6b" alt="Email">
 </a>
 <a href="https://github.com/mrlikl">
-  <img src="https://img.shields.io/badge/GitHub-Follow-black" alt="GitHub">
+  <img src="https://img.shields.io/badge/👾_GitHub-Follow-4ecdc4?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a1a&color=4ecdc4" alt="GitHub">
 </a>
 
 I'm a Cloud Support Engineer (DevOps) with expertise in AWS, Kubernetes, and Infrastructure as Code. I am interested in automating infrastructure at scale, and creating self-service solutions that enable teams to deploy faster and more reliably.
@@ -43,19 +43,27 @@ A static website that displays current AWS EC2 Linux On-Demand pricing informati
 
 ### Python Packages & CLI Tools
 
-#### [cfn-perm](https://github.com/mrlikl/cfn-perm) | [PyPI](https://pypi.org/project/cfn-perm/)
+<div align="center">
+<table>
+<tr>
+<th>Package</th>
+<th>Purpose</th>
+<th>Links</th>
+</tr>
+<tr>
+<td><strong>cfn-perm</strong></td>
+<td>CloudFormation IAM permission generator</td>
+<td><a href="https://github.com/mrlikl/cfn-perm">GitHub</a> | <a href="https://pypi.org/project/cfn-perm/">PyPI</a></td>
+</tr>
+<tr>
+<td><strong>cfn-cur</strong></td>
+<td>Recover CloudFormation stacks stuck in <strong>UPDATE_ROLLBACK_FAILED</strong> state</td>
+<td><a href="https://github.com/mrlikl/continue-update-rollback">GitHub</a> | <a href="https://pypi.org/project/cfn-cur/">PyPI</a></td>
+</tr>
+</table>
+</div>
 
-Python package that analyzes AWS CloudFormation templates and generates minimal IAM permissions required for stack operations. Helps implement least-privilege security principles.
-
-**Tech Stack**: Python, Boto3, CloudFormation, IAM  
-**Key Features**: Automated permission analysis, least-privilege recommendations, CLI interface
-
-#### [continue-update-rollback](https://github.com/mrlikl/continue-update-rollback) | [PyPI](https://pypi.org/project/cfn-cur/)
-
-CLI tool for generating AWS CLI commands to resolve CloudFormation stacks stuck in `UPDATE_ROLLBACK_FAILED` state. Automates the recovery process for failed stack updates.
-
-**Tech Stack**: Python, AWS CLI, CloudFormation  
-**Key Features**: Automated command generation, stack state analysis, error recovery
+**Tech Stack**: Python, Boto3, AWS
 
 ## 📝 Technical Blog Posts
 
@@ -80,9 +88,9 @@ Detailed troubleshooting guide for resolving CloudFormation signal failures on W
 
 ## 📊 GitHub Statistics
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrlikl&show_icons=true&theme=default&hide_border=true)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mrlikl&show_icons=true&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=4ecdc4&icon_color=ff6b6b)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrlikl&layout=compact&theme=default&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrlikl&layout=compact&theme=synthwave&hide_border=true&bg_color=0d1117&title_color=00d4aa&text_color=4ecdc4)
 
 ## 🏆 AWS Certifications
 
