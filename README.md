@@ -51,13 +51,13 @@ A static website that displays current AWS EC2 Linux On-Demand pricing informati
 <th>Links</th>
 </tr>
 <tr>
-<td><strong>cfn-perm</strong></td>
-<td>CloudFormation IAM permission generator</td>
-<td><a href="https://github.com/mrlikl/cfn-perm">GitHub</a> | <a href="https://pypi.org/project/cfn-perm/">PyPI</a></td>
+<td><strong>cfn2iam</strong></td>
+<td>Tool to automatically generate minimal IAM policy to deploy a CloudFormation stack from its template</td>
+<td><a href="https://github.com/mrlikl/cfn2iam">GitHub</a> | <a href="https://pypi.org/project/cfn2iam/">PyPI</a></td>
 </tr>
 <tr>
 <td><strong>cfn-cur</strong></td>
-<td>Recover CloudFormation stacks stuck in <strong>UPDATE_ROLLBACK_FAILED</strong> state</td>
+<td>Tool to generate CLI commands to recover CloudFormation stacks stuck in <strong>UPDATE_ROLLBACK_FAILED</strong> state</td>
 <td><a href="https://github.com/mrlikl/continue-update-rollback">GitHub</a> | <a href="https://pypi.org/project/cfn-cur/">PyPI</a></td>
 </tr>
 </table>
@@ -78,6 +78,12 @@ Comprehensive guide on integrating AWS SDK calls within CDK applications using t
 Detailed troubleshooting guide for resolving CloudFormation signal failures on Windows EC2 instances. Includes diagnostic steps, common root causes, and resolution strategies for cfn-signal issues.
 
 **Topics**: CloudFormation, Windows EC2, Troubleshooting, cfn-signal, Instance Initialization
+
+#### [How do I identify resources for CloudFormation to skip for the continue-update-rollback AWS CLI command?](https://repost.aws/knowledge-center/cloudformation-identify-skip-resources)
+
+Guide on identifying resources that can be skipped during a continue-update-rollback operation
+
+**Topics**: CloudFormation, Troubleshooting, update-rollbacks
 
 ## 🛠️ Technical Expertise
 
